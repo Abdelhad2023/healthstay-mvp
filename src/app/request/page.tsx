@@ -7,7 +7,7 @@ import DisclaimerBox from "@/components/DisclaimerBox";
 export const metadata: Metadata = {
   title: "Request a Personal Proposal",
   description:
-    "Submit a non-binding request for a Swiss neuro-health programme. A human coordinator will review your preferences before contacting any clinic.",
+    "Submit a non-binding request for a personal health stay proposal. A human coordinator will review your preferences before contacting any clinic.",
 };
 
 export default function RequestPage() {
@@ -16,7 +16,7 @@ export default function RequestPage() {
       <section className="py-16 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
-            title="Request a personal proposal"
+            title="Request a personal health stay proposal"
             subtitle="Tell us about your preferences and goals. No medical documents needed. A human coordinator will review your request and suggest suitable options."
           />
 

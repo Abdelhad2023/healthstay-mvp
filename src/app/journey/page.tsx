@@ -6,9 +6,9 @@ import DisclaimerBox from "@/components/DisclaimerBox";
 import { getJourneySteps } from "@/lib/content/repository";
 
 export const metadata: Metadata = {
-  title: "How It Works — The Patient Journey",
+  title: "How It Works — The Health Stay Journey",
   description:
-    "From discovery to post-stay follow-up. Every step of your Swiss neuro-health journey includes human support and clinic validation.",
+    "From discovery to post-stay follow-up. Every step of your health journey includes human support and clinic validation.",
 };
 
 export default async function JourneyPage() {
@@ -20,7 +20,7 @@ export default async function JourneyPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
             title="How it works"
-            subtitle="Your international patient journey, from exploring programmes to post-stay follow-up. Every sensitive step includes human review and clinic validation."
+            subtitle="Your international health stay journey, from exploring programmes to post-stay follow-up. Every sensitive step includes human review and clinic validation."
           />
 
           <div className="mt-12">

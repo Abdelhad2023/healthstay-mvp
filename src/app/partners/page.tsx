@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "Partner With Us",
   description:
-    "Are you a clinic or rehabilitation centre? Join HealthStay and reach international patients seeking transparent, human-reviewed neuro-health programmes.",
+    "Are you a clinic or rehabilitation centre? Join HealthStay's global platform and reach international patients seeking transparent, human-reviewed health programmes.",
 };
 
 const benefits = [

@@ -7,7 +7,7 @@ import StatCard from "@/components/StatCard";
 export const metadata: Metadata = {
   title: "About HealthStay",
   description:
-    "HealthStay is a trusted marketplace and concierge platform for international health stays, starting with Swiss neuro-health journeys.",
+    "HealthStay is a trusted marketplace and concierge platform for international health stays. Global vision. Swiss pilot first.",
 };
 
 export default function AboutPage() {
@@ -17,22 +17,22 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
             title="About HealthStay"
-            subtitle="A trusted marketplace and concierge platform for international health stays, starting with Swiss neuro-health journeys."
+            subtitle="A trusted marketplace and concierge platform for international health stays. Global vision. Swiss pilot first."
           />
 
           <div className="mt-10 space-y-8">
             <div>
               <h2 className="text-lg font-semibold text-gray-900">Our vision</h2>
               <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                We believe that international health travel should be transparent, safe, and
-                supported by humans — not just algorithms. HealthStay was created to help patients
-                and families discover, compare, and request premium health programmes abroad with
-                clear packages, human coordination, and clinic validation before confirmation.
+                HealthStay is a global platform that helps people find and request trusted health
+                stays worldwide — including hospitals, clinics, rehabilitation centers, prevention
+                centers, and medical wellness providers that offer health stay packages with
+                accommodation, coordination, human review, and clinic validation.
               </p>
               <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                We start with Swiss neuro-health because Switzerland offers world-class expertise in
-                brain health, prevention, and rehabilitation. Our first programmes focus on premium
-                prevention, second medical opinion, and neuro-rehabilitation stays.
+                We start with a Swiss neuro-health pilot to prove the concept, then expand to more
+                hospitals, specialties, and countries. Switzerland offers world-class expertise in
+                brain health, prevention, and rehabilitation as our first proof of concept.
               </p>
             </div>
 
@@ -44,22 +44,13 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h2 className="text-lg font-semibold text-gray-900">Why Switzerland?</h2>
+              <h2 className="text-lg font-semibold text-gray-900">Global vision. Swiss pilot first.</h2>
               <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                Switzerland is internationally recognised for its medical excellence, patient-centred
-                care, and premium healthcare infrastructure. Swiss neuro-centres combine advanced
-                medical expertise with a calm, restorative environment — ideal for brain health
-                prevention, second opinions, and neuro-rehabilitation.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-lg font-semibold text-gray-900">Why neuro-health?</h2>
-              <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                Brain health is one of the most important and least addressed areas of preventive
-                medicine. By starting with neuro-health, we focus on a niche where transparency,
-                human validation, and coordination make a real difference for patients and their
-                families.
+                HealthStay is designed as a global platform. We start with a Swiss neuro-health
+                pilot because Switzerland offers world-class medical expertise, premium
+                infrastructure, and an ideal environment for prevention, second opinions, and
+                rehabilitation. The platform is built to expand to more countries, hospitals,
+                specialties, and package types.
               </p>
             </div>
 
@@ -102,7 +93,7 @@ export default function AboutPage() {
               <p className="mt-3 text-sm text-gray-600 leading-relaxed">
                 We are not a hospital directory, not an instant booking engine, not an AI doctor.
                 We are a curated, human-centred platform that connects international patients with
-                Swiss neuro-health programmes through transparent packages and clinic-validated
+                health programmes worldwide through transparent packages and clinic-validated
                 proposals.
               </p>
             </div>

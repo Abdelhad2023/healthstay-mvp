@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "HealthStay — Premium Swiss Neuro-Health Journey Platform",
+    default: "HealthStay — Find Trusted Health Stays Worldwide",
     template: "%s | HealthStay",
   },
   description:
-    "Explore premium Swiss neuro-health, prevention, second opinion, and rehabilitation stays with transparent packages and human-reviewed requests.",
+    "Find trusted health stays worldwide. Explore hospitals, clinics, and health centers offering transparent health stay packages with accommodation, coordination, human review, and clinic validation.",
 };
 
 export default function RootLayout({

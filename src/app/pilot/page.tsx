@@ -4,9 +4,9 @@ import SectionHeader from "@/components/SectionHeader";
 import DisclaimerBox from "@/components/DisclaimerBox";
 
 export const metadata: Metadata = {
-  title: "Swiss Neuro-Health Journey Pilot — HealthStay",
+  title: "Swiss Pilot — HealthStay",
   description:
-    "Explore a premium pilot concept for AI-assisted Swiss neuro-health, prevention, second opinion, and rehabilitation journeys with transparent packages and human validation.",
+    "Swiss neuro-health pilot concept. HealthStay is a global platform starting with a Swiss proof of concept for prevention, second opinion, and rehabilitation journeys.",
 };
 
 const pilotFlow = [
@@ -128,17 +128,17 @@ export default function PilotPage() {
     <>
       <section className="py-16 sm:py-20 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-flex items-center px-3 py-1 text-xs font-medium text-gray-500 bg-white border border-gray-200 rounded-full">
-            Swiss Neuro-Health Pilot Concept
+          <span className="inline-flex items-center px-3 py-1 text-xs font-medium text-teal bg-teal-light border border-teal/20 rounded-full">
+            Global vision. Swiss pilot first.
           </span>
           <h1 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-gray-900 leading-tight">
-            Swiss Neuro-Health Journey Pilot
+            Swiss Neuro-Health Pilot
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            An AI-assisted international patient journey concept for premium Swiss neuro-health, prevention, second opinion, and rehabilitation stays.
+            An AI-assisted international patient journey concept for premium Swiss neuro-health, prevention, second opinion, and rehabilitation stays — the first proof of concept for the global HealthStay platform.
           </p>
           <p className="mt-4 text-sm text-gray-500 max-w-xl mx-auto">
-            HealthStay is designed to help international patients understand available programmes, request transparent proposals, and receive human-guided support before, during, and after a Swiss health stay.
+            HealthStay is a global platform. Switzerland is the first pilot destination because it offers world-class neuro-health expertise, premium infrastructure, and an ideal environment for brain health prevention, second opinions, and rehabilitation.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
@@ -166,8 +166,8 @@ export default function PilotPage() {
       <section className="py-16 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
-            title="The opportunity"
-            subtitle="International patients seeking neuro-health programmes abroad face a fragmented, opaque process. HealthStay turns this into a structured, transparent, human-reviewed journey."
+            title="Why a Swiss pilot"
+            subtitle="International patients seeking neuro-health programmes abroad face a fragmented, opaque process. HealthStay turns this into a structured, transparent, human-reviewed journey — starting with Switzerland as the first proof of concept."
           />
           <div className="mt-8 space-y-4">
             <div className="bg-white border border-gray-100 rounded-lg p-4 sm:p-5">
